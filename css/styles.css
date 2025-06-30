@@ -1,6 +1,6 @@
 body {
-  font-family: 'roboto', sans-serif;
-  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
   background-color: #fff;
 }
 ul {
@@ -22,9 +22,10 @@ button {
 }
 
 .header-logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -49,6 +50,10 @@ button {
 }
 
 .header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-menu-link:focus {
   color: #404bbf;
 }
 
@@ -91,12 +96,17 @@ button {
 }
 
 .hero-order-btn {
+  font-family: 'Roboto' sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+}
+
+.hero-order-btn:hover {
+  background: #404bbf;
 }
 
 .hero-order-btn:hover {
@@ -132,6 +142,7 @@ button {
 /*------------team-----------*/
 
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -140,8 +151,10 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
@@ -176,6 +189,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -205,14 +219,15 @@ button {
   background: #2e2f42;
 }
 .footer-logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.footer-logo span {
+.footer-logo-span {
   color: #f4f4fd;
 }
 .footer-text {
