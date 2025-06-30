@@ -77,6 +77,9 @@ button {
 .header-contact-link:hover {
   color: #404bbf;
 }
+.header-contact-link:focus {
+  color: #404bbf;
+}
 
 /*-------------------------------*/
 
@@ -109,7 +112,7 @@ button {
   background: #404bbf;
 }
 
-.hero-order-btn:hover {
+.hero-order-btn:focus {
   background: #404bbf;
 }
 
@@ -154,9 +157,9 @@ button {
   text-transform: capitalize;
 }
 .team-list {
-  background-color: #ffffff;
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-item-image {
 }
